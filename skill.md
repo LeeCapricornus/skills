@@ -230,18 +230,4 @@ Present the skill summary to the user and confirm before packaging.
 - Including README.md, INSTALLATION_GUIDE.md, or other documentation files
 - "When to Use" info in the body instead of the description field
 
-## Step 8: Package
 
-```bash
-python3 scripts/package_skill.py <path/to/skill-folder> [output-directory]
-```
-
-Validates automatically before packaging. Fix errors and re-run.
-
-## Step 9: Iterate
-
-After real usage:
-1. Notice where the model struggles or is inconsistent
-2. Identify which workflow step needs improvement
-3. Add more specific instructions, examples, or anti-patterns
-4. Re-test and re-package
